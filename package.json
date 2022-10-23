@@ -2,7 +2,7 @@
   "name": "jot-it-down",
   "version": "1.0.0",
   "description": "Remember everything with this handy note taking app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js"
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/miss-mad/jot-it-down#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
